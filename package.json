@@ -1,0 +1,19 @@
+{
+  "name": "familia_economica",
+  "version": "1.0.0",
+  "description": "gestao economia domestica",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klawney/familia_economica.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/klawney/familia_economica/issues"
+  },
+  "homepage": "https://github.com/klawney/familia_economica#readme"
+}

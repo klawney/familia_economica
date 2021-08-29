@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Familia Econômica</title>
+</head>
+<body>
+    <h1>Cadastrar Despesa</h1>
+    <form action="" method="post">
+        <label>Despesa</label>
+        <input type="text" name="depesa">
+
+        <label>Categoria</label>
+        <select name="categiria" id="catdesp">
+            <option value="Alimentação"></option>
+            <option value="Comunicação"></option>
+            <option value="Energia"></option>
+            <option value="Higiene Pessoal"></option>
+            <option value="Limpeza"></option>
+            <option value="Mobilidade"></option>
+            <option value="Saúde"></option>
+            <option value="Vestuário"></option>
+        </select>
+        <label>Data</label>
+        <input type="datetime" name="data">
+
+        <label>Valor</label>
+        <input type="number" name="valor">
+
+        <label>Meio pagamento</label>
+        
+        <input type="radio" name="meiopgto" value="Dinheiro">
+        <input type="radio" name="meiopgto" value="Ticket">
+        <input type="radio" name="meiopgto" value="Cartão Débito">
+        <input type="radio" name="meiopgto" value="Cartão Crédito">
+        <input type="radio" name="meiopgto" value="Pix / Transf. Elet.">
+
+        <div>
+            <button type="submit">Salvar</button>
+            <button type="reset">Cancelar</button>
+        </div>
+    </form>
+</body>
+</html>
